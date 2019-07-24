@@ -1,0 +1,21 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${ESP_HOME}/xtensa-lx106-elf/xtensa-lx106-elf/include/**",
+                "${SMING_HOME}/**",
+                "${workspaceRoot}/**"
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": false,
+                "databaseFilename": "${workspaceRoot}/.vscode/browse.vc.db"
+            },
+            "intelliSenseMode": "clang-x64",
+            "compilerPath": "${ESP_HOME}/xtensa-lx106-elf/bin/xtensa-lx106-elf-g++",
+            "cStandard": "c11",
+            "cppStandard": "c++17"
+        }
+    ],
+    "version": 4
+}
